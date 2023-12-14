@@ -1,0 +1,27 @@
+{
+	"title": "Mesurez-vous aux élèves suisses qui ont fait le questionnaire PISA",
+	"titlesocial": "Mesurez-vous aux élèves suisses qui ont fait le questionnaire PISA",
+	"description": "Vous pensez être meilleur que les élèves européens en compréhension écrite?",
+	"authors": {
+		"photos": "Midjourney",
+		"videos": null,
+		"writer": {
+			"fname": "fabien",
+			"lname": "goubet",
+			"title": "Journaliste Blick",
+			"filetype": "png",
+			"url": null
+		},
+		"dev": "César Greppin"
+	},
+	"imgSocial": "social.jpg",
+	"headertheme": "trans", 
+	"blickWhite": false,
+	"blickBlack": true,
+	"headerBoxed": false,
+	"pubDate": "2020-07-23T11:00:00+00:00",
+	"partner": {
+		"logo": "img/empty.png",
+		"link": "https://www.blick.ch/"
+	}
+}
