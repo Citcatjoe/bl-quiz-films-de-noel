@@ -4041,48 +4041,29 @@
       "oAP" : "\/social.psd",
       "oF" : 0
     },
-    "\/templates\/_blocks.html.twig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/templates\/_blocks.html.twig",
-      "oF" : 0
-    },
-    "\/templates\/local\/_blocks_local.html.twig" : {
-      "cB" : 0,
-      "ft" : 8192,
-      "hM" : 0,
-      "oA" : 1,
-      "oAP" : "\/templates\/local\/_blocks_local.html.twig",
-      "oF" : 0
-    },
-    "\/templates\/README.html" : {
+    "\/templates\/header-and-share\/DISABLED_header-and-share.html.twig" : {
       "cB" : 0,
       "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/templates\/README.html",
+      "oAP" : "\/templates\/header-and-share\/DISABLED_header-and-share.html.twig",
       "oF" : 0
     },
-    "\/templates\/README.md" : {
+    "\/templates\/html-elements\/DISABLED_html-elements.html.twig" : {
       "cB" : 0,
-      "cS" : 0,
-      "eF" : 1,
-      "eL" : 1,
-      "ema" : 1,
-      "eSQ" : 1,
-      "ft" : 4096,
+      "ft" : 8192,
       "hM" : 0,
       "oA" : 0,
-      "oAP" : "\/templates\/README.html",
-      "oF" : 0,
-      "oFM" : 0,
-      "oS" : 0,
-      "pHT" : 0,
-      "pME" : 1,
-      "rFN" : 0,
-      "uCM" : 0
+      "oAP" : "\/templates\/html-elements\/DISABLED_html-elements.html.twig",
+      "oF" : 0
+    },
+    "\/templates\/metas-and-scripts\/DISABLED_metas-and-scripts.html.twig" : {
+      "cB" : 0,
+      "ft" : 8192,
+      "hM" : 0,
+      "oA" : 0,
+      "oAP" : "\/templates\/metas-and-scripts\/DISABLED_metas-and-scripts.html.twig",
+      "oF" : 0
     },
     "\/variables.json" : {
       "ft" : 524288,
