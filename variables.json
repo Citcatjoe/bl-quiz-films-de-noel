@@ -1,16 +1,16 @@
 {
-	"title": "Mesurez-vous aux élèves suisses qui ont fait le questionnaire PISA",
-	"titlesocial": "Mesurez-vous aux élèves suisses qui ont fait le questionnaire PISA",
-	"description": "Vous pensez être meilleur que les élèves européens en compréhension écrite?",
+	"title": "Seuls les véritables fans de films de Noël réussiront ce quiz!",
+	"titlesocial": "Seuls les véritables fans de films de Noël réussiront ce quiz!",
+	"description": "Vous adorez les films de Noël et possédez une excellente mémoire? Testez vos connaissances en répondant à notre questionnaire festif dédié aux vrais pros.",
 	"authors": {
 		"photos": "Midjourney",
 		"videos": null,
 		"writer": {
-			"fname": "fabien",
-			"lname": "goubet",
+			"fname": "Ellen",
+			"lname": "De Meester",
 			"title": "Journaliste Blick",
 			"filetype": "png",
-			"url": null
+			"url": "https://www.blick.ch/fr/auteurs/ellen-de-meester-id18937288.html"
 		},
 		"dev": "César Greppin"
 	},

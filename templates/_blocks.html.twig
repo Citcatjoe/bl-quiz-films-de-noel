@@ -4,7 +4,7 @@
 	<meta name="color-scheme" content="light only">
 	<title>{{ title }}</title>
 	<meta name="description" content="{{ description }}" />
-	<meta name="author" content="{{authors}}">
+	<meta name="author" content="{{ authors.writer.fname ~ ' ' ~ authors.writer.lname }}">
 	<link rel="shortcut icon" href="favicon/favicon.ico" type="image/vnd.microsoft.icon" />
 	
     <link rel="apple-touch-icon" sizes="180x180" href="favicon/apple-touch-icon.png">
@@ -91,7 +91,7 @@
 				<li class="flex items-center h-20 px-8 hover:bg-neutral-200"><img src="img/icon-facebook-b-noborder.svg" alt="Partager sur Facebook" class="mr-2"><span class="font-light">Facebook</span></li>
 			</a>
 			<a href="https://twitter.com/intent/tweet?text={{ description ~ ' ' ~ app.url ~ ' '|url_encode }}&via=blick_fr" target="_blank">
-				<li class="flex items-center h-20 px-8 hover:bg-neutral-200"><img src="img/icon-twitter-b-noborder.svg" alt="icône Partager sur Twitter" class="mr-2"><span class="font-light">Twitter</span></li>
+				<li class="flex items-center h-20 px-8 hover:bg-neutral-200"><img src="img/icon-twitter-b-noborder.svg" alt="icône Partager sur Twitter" class="mr-2"><span class="font-light">X</span></li>
 			</a>
 			<a href="whatsapp://send?text={{titlesocial}}%0A%0A{{ app.url }}" target="_blank">
 				<li class="flex items-center h-20 px-8 hover:bg-neutral-200"><img src="img/icon-wa-b-noborder.svg" alt="Icône Partager sur Whatsapp" class="mr-2"><span class="font-light">Whatsapp</span></li>
@@ -160,9 +160,9 @@
 	<div class="author w-52">
 		{# <a target="_blank" href="https://www.blick.ch/fr/auteurs/gre-gory-beaud-journaliste-blick-id16519809.html" class="flex items-center"> #}
 		<span class="flex items-center">
-			<img src="img/{{authors.writer.fname}}-{{authors.writer.lname}}.{{authors.writer.filetype}}" alt="Portrait de&nbsp;{{authors.writer.fname}}&nbsp;{{authors.writer.lname}}" class="rounded-full w-12 mr-2.5">
+			<img src="img/{{authors.writer.fname|lower}}-{{ authors.writer.lname|replace({' ': '-'})|lower }}.{{authors.writer.filetype}}" alt="Portrait de&nbsp;{{authors.writer.fname}}&nbsp;{{authors.writer.lname}}" class="rounded-full w-12 mr-2.5">
 			<div class="align-text-bottom text-xs">
-				Par <span class="inline-block font-extrabold">{{authors.writer.fname|capitalize}}&nbsp;{{authors.writer.lname|capitalize}}</span>
+				Par <span class="inline-block font-extrabold">{% if authors.writer.url is defined and authors.writer.url is not empty %}<a href="{{authors.writer.url}}" target="_blank" class="underline">{% endif %}{{ authors.writer.fname ~ ' ' ~ authors.writer.lname }}{% if authors.writer.url is defined and authors.writer.url is not empty %}</a>{% endif %}</span>
 				<span class="inline-block">{{authors.writer.title}}</span>
 			</div>
 		</span>
@@ -237,10 +237,10 @@
 		<span class="font-semibold">Creative Lab Blick Suisse romande</span>
 	</p> 
 	{% if authors.photos %}
-	<p class="mb-8">
-		<span class="font-thin opacity-80">Photographies</span><br>
+	{# <p class="mb-8">
+		<span class="font-thin opacity-80">Images</span><br>
 		<span class="font-semibold">{{authors.photos}}</span>
-	</p>
+	</p> #}
 	{% endif %}
 	{% if authors.videos %}
 	<p class="mb-8">
@@ -251,7 +251,7 @@
 	{% if authors.writer %}
 	<p class="mb-8">
 		<span class="font-thin opacity-80">Texte</span><br>
-		<span class="font-semibold">{{authors.writer.fname|capitalize}}&nbsp;{{authors.writer.lname|capitalize}}</span>
+		<span class="font-semibold">{{ authors.writer.fname ~ ' ' ~ authors.writer.lname }}</span>
 	</p>
 	{% endif %}
 	{% if authors.dev %}

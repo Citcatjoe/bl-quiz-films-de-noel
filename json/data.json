@@ -1,134 +1,221 @@
 [
-    { 
-        "questionContextTitle": "Montée des océans",
-        "questionContextText": "Le film <i>«Le Travina: un paradis perdu»</i> est un documentaire célèbre qui examine les effets de la montée des océans sur le Travina, une petite nation composée de 12 îles de faible altitude et habitée par environ 20'000 personnes. Les principaux secteurs d'activité de ce pays sont le tourisme, la pêche et l'agriculture. Au cours des dix dernières années, la montée du niveau de l'océan a obligé des centaines de Traviniens à déménager vers les hauteurs. Les scientifiques estiment que si on ne réduit pas radicalement les émissions mondiales de dioxyde de carbone, la majeure partie du territoire travinien sera sous l'eau d'ici 2075.<br><br><span class='font-medium'>Selon le réalisateur, l'objectif du documentaire est de «persuader le public que la hausse des températures sur Terre est une menace, en présentant son impact sur la vie des gens».</span><br><br><span class='font-medium'>Les raisons ci-dessous expliquent-t-elles pourquoi parler plus spécifiquement du Travina pourrait persuader le public que la hausse de la température sur Terre est une menace?</span>", 
-        "questionType": "Raison 1",
-        "questionImg": null,
-        "questionTxt": "Les téléspectateurs qui connaissent des gens au Travina apprécieront l'objectif du documentaire",
+    {
+        "questionImg": "question1.jpg",
+        "questionImgCredit": "Love Actually - Universal Pictures",
+        "questionTxt": "Dans «Love Actually», quel rôle obtient Daisy, la fille de Karen (incarnée par Emma Thompson), dans la pièce de Noël?",
         "questionAnswers": [
             {
-                "answerTxt": "Oui",
+                "answerTxt": "Un mouton",
                 "answerIsTrue": false
             },
             {
-                "answerTxt": "Non",
+                "answerTxt": "Une étoile",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Un homard",
                 "answerIsTrue": true
             }
         ],
         "questionHint": null
     },
-    { 
-        "questionType": "Raison 2",
-        "questionImg": null,
-        "questionTxt": "Le changement climatique a déjà touché les habitants du Travina de diverses manières et cela peut être clairement montré",
+    {
+        "questionImg": "question3.jpg",
+        "questionImgCredit": "The Polar Express - Warner Bros",
+        "questionTxt": "Quelle boisson est servie à tous les passagers du «Polar Express»?",
         "questionAnswers": [
             {
-                "answerTxt": "Oui",
-                "answerIsTrue": true
-            },
-            {
-                "answerTxt": "Non",
+                "answerTxt": "Du thé de Noël",
                 "answerIsTrue": false
-            }            
-        ],
-        "questionHint": null
-    },
-    { 
-        "questionType": "Raison 3",
-        "questionImg": null,
-        "questionTxt": "Le Travina est un exemple de l'impact que pourrait avoir la montée des océans sur d'autres endroits dans le monde",
-        "questionAnswers": [
+            },
             {
-                "answerTxt": "Oui",
+                "answerTxt": "Du chocolat chaud",
                 "answerIsTrue": true
             },
             {
-                "answerTxt": "Non",
+                "answerTxt": "Du cidre de lutin magique",
                 "answerIsTrue": false
             }
         ],
         "questionHint": null
     },
-    { 
-        "questionType": "Raison 4",
-        "questionImg": null,
-        "questionTxt": "Le gouvernement du Travina veut que ses habitants en apprennent le plus possible sur la production de dioxyde de carbone",
+    {
+        "questionImg": "question2.jpg",
+        "questionImgCredit": "Princesse Chicago - Netflix",
+        "questionTxt": "Quel est le métier de Stacy De Novo (incarnée par Vanessa Hudgens) avant de devenir «La Princesse de Chicago» sur Netflix?",
         "questionAnswers": [
             {
-                "answerTxt": "Oui",
+                "answerTxt": "Enseignante",
                 "answerIsTrue": false
             },
             {
-                "answerTxt": "Non",
-                "answerIsTrue": true
-            }
-        ],
-        "questionHint": "Les raisons 2 et 3 soutiennent l'objectif du cinéaste. Dans les deux cas, les affirmations décrivent pourquoi la situation de Travina pourrait avoir un impact plus large sur les téléspectateurs, même ceux qui vivent loin de Travina ou qui n'habitent pas près de l'océan.<br><br>En revanche, les raisons 1 et 4 ne décrivent pas pourquoi le réalisateur prendrait Travina comme exemple. Ces affirmations concernent un public restreint et probablement déjà persuadé des effets de l'augmentation des températures mondiales."
-    },
-    { 
-        "questionType": "Exemple 1",
-        "questionContextTitle": "Montée des océans",
-        "questionContextText": "<span class='font-medium'>Certains écologistes craignent que l'attention portée au Travina suite au succès du film ait des conséquences négatives.</span><br><br><span class='font-medium'>Les exemples ci-dessous décrivent-ils une conséquence négative possible du succès du film?</span>",
-        "questionImg": null,
-        "questionTxt": "Les touristes pourraient se précipiter pour aller voir les îles avant qu'il ne soit trop tard, et pourraient arriver sur de grands paquebots pouvant polluer l'air et l'eau",
-        "questionAnswers": [
-            {
-                "answerTxt": "Oui",
+                "answerTxt": "Pâtissière",
                 "answerIsTrue": true
             },
             {
-                "answerTxt": "Non",
+                "answerTxt": "Écrivaine",
                 "answerIsTrue": false
             }
         ],
         "questionHint": null
     },
-    { 
-        "questionType": "Exemple 2",
-        "questionImg": null,
-        "questionTxt": "L'intérêt que le monde entier accorde à la sauvegarde du Travina pourrait détourner l'attention d'un problème bien plus vaste : comment lutter contre le changement climatique mondial?",
+    {
+        "questionImg": "question4.jpg",
+        "questionImgCredit": "L'étrange Noël de Monsieur Jack - Buena Vista Pictures",
+        "questionTxt": "Comment s’appelle le chien de Jack, dans «L’Étrange Noël de Monsieur Jack»?",
         "questionAnswers": [
             {
-                "answerTxt": "Oui",
+                "answerTxt": "Zero",
                 "answerIsTrue": true
             },
             {
-                "answerTxt": "Non",
+                "answerTxt": "Hero",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Cheerio",
                 "answerIsTrue": false
             }
         ],
         "questionHint": null
     },
-    { 
-        "questionType": "Exemple 3",
-        "questionImg": null,
-        "questionTxt": "Le gouvernement du Travina pourrait avoir des difficultés à faire parvenir rapidement des dons à ceux qui en ont le plus besoin",
+    {
+        "questionImg": "question5.jpg",
+        "questionImgCredit": "Le Père Noël est une ordure - TRINACRAFILMS",
+        "questionTxt": "Dans «Le Père Noël est une ordure», comment s’appelle la pâtisserie roulée sous les aisselles de Mr. Preskovitch?",
         "questionAnswers": [
             {
-                "answerTxt": "Oui",
+                "answerTxt": "Le Glögg",
                 "answerIsTrue": false
             },
             {
-                "answerTxt": "Non",
+                "answerTxt": "Le Bloug",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Le Kloug",
                 "answerIsTrue": true
             }
         ],
         "questionHint": null
     },
-    { 
-        "questionType": "Exemple 4",
-        "questionImg": null,
-        "questionTxt": "Même si les Traviniens pouvaient déménager sur les hauteurs à mesure que le niveau de l'océan monte, ils perdraient une grande partie de leurs terres cultivables",
+    {
+        "questionImg": "question6.jpg",
+        "questionImgCredit": "«Maman, j’ai raté l’avion!» - ALAMY",
+        "questionTxt": "Dans «Maman, j’ai raté l’avion!», comment s’appellent les deux voleurs que terrasse brillamment le jeune Kevin?",
         "questionAnswers": [
             {
-                "answerTxt": "Oui",
+                "answerTxt": "Barry et Justin",
                 "answerIsTrue": false
             },
             {
-                "answerTxt": "Non",
+                "answerTxt": "Harry et Marv",
+                "answerIsTrue": true
+            },
+            {
+                "answerTxt": "Ben et Jerry",
+                "answerIsTrue": false
+            }
+        ],
+        "questionHint": null
+    },
+    {
+        "questionImg": "question7.jpeg",
+        "questionImgCredit": "Le Grinch - Universal Pictures",
+        "questionTxt": "Quel est le prénom de l’attachante petite fille qui parvient à attendrir le Grinch?",
+        "questionAnswers": [
+            {
+                "answerTxt": "Lucy Lou",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Cindy Lou",
+                "answerIsTrue": true
+            },
+            {
+                "answerTxt": "Mary Lou",
+                "answerIsTrue": false
+            }
+        ],
+        "questionHint": null
+    },
+    {
+        "questionImg": "question8.jpeg",
+        "questionImgCredit": "The Holiday - DR",
+        "questionTxt": "Dans «The Holiday», sur quel morceau de rock Amanda danse-t-elle en pyjama, alors qu’elle vient d’arriver dans la maison d’Iris?",
+        "questionAnswers": [
+            {
+                "answerTxt": "«Mr. Brigthside» par The Killers",
+                "answerIsTrue": true
+            },
+            {
+                "answerTxt": "«I'm just a kid» par Simple Plan",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "«Friday I'm in love» par The Cure",
+                "answerIsTrue": false
+            }
+        ],
+        "questionHint": null
+    },
+    {
+        "questionImg": "question9.jpeg",
+        "questionImgCredit": "Harry Potter - Warner Bros",
+        "questionTxt": "Quel est le tout premier cadeau de Noël que Molly Weasley envoie à Harry, alors qu’il passe les Fêtes à Poudlard?",
+        "questionAnswers": [
+            {
+                "answerTxt": "Une boîte de Chocogrenouilles",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Une cape d'invisibilité",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Un pull tricoté orné d'un «H»",
                 "answerIsTrue": true
             }
         ],
-        "questionHint": "Les exemples 1 et 2 décrivent des conséquences directes possibles de l'attention portée à Travina qui pourraient avoir des effets négatifs supplémentaires sur l'île.<br><br>Les exemples 3 et 4 ne sont pas vraiment des conséquences de l'attention que le film suscite pour Travina.<br><br>Dans l'exemple 3, la question de savoir si le gouvernement peut distribuer des dons aux personnes dans le besoin n'a pas grand-chose à voir avec le succès du film, mais plutôt avec la capacité du gouvernement. L'exemple 4 exprime une conséquence qui est liée au fait que les habitants de Travina doivent se déplacer vers un terrain plus élevé, mais cela n'a rien à voir avec le succès du documentaire"
+        "questionHint": null
+    },
+    {
+        "questionImg": "question10.jpg",
+        "questionImgCredit": "Prince Noel - Netflix",
+        "questionTxt": "Dans «Un prince pour Noël» sur Netflix, où le roi a-t-il caché le document officiel qui autorise l’accession au trône du prince Richard?",
+        "questionAnswers": [
+            {
+                "answerTxt": "Dans une décoration de Noël en forme de gland",
+                "answerIsTrue": true
+            },
+            {
+                "answerTxt": "Dans une boîte en forme de pain d’épices",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Dans une trappe secrète à côté des cuisines",
+                "answerIsTrue": false
+            }
+        ],
+        "questionHint": null
+    },
+    {
+        "questionImg": "question11.jpg",
+        "questionImgCredit": "Elf - New Line Cinema",
+        "questionTxt": "Dans le film «Elf», pourquoi le lutin Buddy (incarné par Will Ferrell) quitte-t-il le pôle Nord?",
+        "questionAnswers": [
+            {
+                "answerTxt": "Il veut convaincre les enfants humains de croire au Père Noël",
+                "answerIsTrue": false
+            },
+            {
+                "answerTxt": "Il veut retrouver sa véritable famille",
+                "answerIsTrue": true
+            },
+            {
+                "answerTxt": "Il a perdu son chemin et doit sauver Noël pour rentrer chez lui",
+                "answerIsTrue": false
+            }
+        ]
     }
 ]
